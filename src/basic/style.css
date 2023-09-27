@@ -1,0 +1,132 @@
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+
+.meaning {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-word {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+#btn-search {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.word {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.meaning-word {
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-meaning {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.action-answer {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#edit {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+      /* show if use answer */
+
+}
+
+#delete {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+      /* show if use answer */
+}
+
+#add-answer {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    outline: none;
+    padding: 0 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* show if not answer */
+    display: none;
+}
+
+.answer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
